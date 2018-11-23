@@ -2,11 +2,11 @@
 #  User configuration
 # -----------------------------------------------------------------------------
 
-title:               오늘보다 내일 더
+title:               서현석 블로그
 
 # The unique resource location of your page.
 # Set to `https://<username>.github.io` when hosting on GitHub Pages
-url:                 https://samslow.me
+url:                 https://samslow.github.io
 
 # Set to '' when hosting a blog on GitHub Pages, ie on `//<username>.github.io`
 # Set to '/<reponame>' when using the `gh-pages` branch of a repository
