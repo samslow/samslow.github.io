@@ -46,9 +46,9 @@ bundle exec jekyll serve
 ```
 
 ### 원격 빌드
-- Github 저장소를 **(YOURNAME).github.io** 로 만들어 Push후 **(YOURNAME).github.io**로 접속
+- Github 저장소를 **{YOURNAME}.github.io** 로 만들어 Push후 **{YOURNAME}.github.io**로 접속
   - 변경은 최대 5분정도 소요 될 수 있습니다.
 
 ### 글 작성
 - ```_featured_categories```, ```_featured_tags``` 설정한 후, ```_posts```에 글을 작성합니다
-- 글 제목 형태는 ```2018-11-22-블로그시작.md``` 이런 방식처럼 작성 날짜를 빼고 쓰면 반영되지 않습니다
+- 글 제목 형태는 ```2018-11-22-블로그시작.md``` 이런 방식처럼 작성해야하며, 날짜를 빼고 쓰면 반영되지 않습니다
