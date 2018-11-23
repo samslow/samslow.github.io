@@ -29,75 +29,75 @@
   }
 }
 
-// #_yDrawer {
-//   position: relative;
-//
-//   @media screen {
-//     padding: 2rem 1rem;
-//     min-height: 640px; // fallback
-//     min-height: 100vh;
-//   }
-//
-//   @media screen and (min-width: $break-point-2) {
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     bottom: 0;
-//     width: 18rem; // duplicate!
-//     margin-left: 0;
-//   }
-//
-//   @media screen and (min-width: $break-point-dynamic) {
-//     width: $dynamic-width;
-//   }
-//
-//   &.loaded {
-//     min-height: 0;
-//     padding: 0;
-//   }
-// }
-//
-// .sidebar-bg {
-//   position: absolute;
-//   top: 0;
-//   right: 0;
-//   bottom: 0;
-//   left: 0;
-//   background: #202020 center / cover;
-// }
-//
-// .sidebar-sticky {
-//   position: relative;
-//   z-index: 3;
-//
-//   @media screen {
-//     position: absolute;
-//     right:  2rem;
-//     bottom: 1rem;
-//     left:   2rem;
-//   }
-// }
-//
-// /* About section */
-// .sidebar-about > h1 {
-//   color: #fff;
-//   font-size: 2rem;
-// }
-//
-// .sidebar-nav > ul {
-//   list-style: none;
-//   padding-left: 0;
-//   margin-bottom: .5rem;
-//   border-top: 1px solid rgba(255, 255, 255, 0.2);
-// }
-//
-// a.sidebar-nav-item {
-//   font-weight: bold;
-//   display: block;
-//   line-height: 1.75;
-//   padding: .25rem 0;
-//   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-// }
+#_yDrawer {
+  position: relative;
+
+  @media screen {
+    padding: 2rem 1rem;
+    min-height: 640px; // fallback
+    min-height: 100vh;
+  }
+
+  @media screen and (min-width: $break-point-2) {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 18rem; // duplicate!
+    margin-left: 0;
+  }
+
+  @media screen and (min-width: $break-point-dynamic) {
+    width: $dynamic-width;
+  }
+
+  &.loaded {
+    min-height: 0;
+    padding: 0;
+  }
+}
+
+.sidebar-bg {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #202020 center / cover;
+}
+
+.sidebar-sticky {
+  position: relative;
+  z-index: 3;
+
+  @media screen {
+    position: absolute;
+    right:  2rem;
+    bottom: 1rem;
+    left:   2rem;
+  }
+}
+
+/* About section */
+.sidebar-about > h1 {
+  color: #fff;
+  font-size: 2rem;
+}
+
+.sidebar-nav > ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: .5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+a.sidebar-nav-item {
+  font-weight: bold;
+  display: block;
+  line-height: 1.75;
+  padding: .25rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+}
 
 @media print {
   .sidebar {
