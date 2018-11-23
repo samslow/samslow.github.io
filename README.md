@@ -46,7 +46,7 @@ bundle exec jekyll serve
 ```
 
 ### 원격 빌드
-- Github 저장소를 **(YOURNAME).github.io** 로 만들어 Push후 **(YOURNAME).github.io**로 접속
+- Github 저장소를 **{YOURNAME}.github.io** 로 만들어 Push후 **{YOURNAME}.github.io**로 접속
   - 변경은 최대 5분정도 소요 될 수 있습니다.
 
 ### 글 작성
