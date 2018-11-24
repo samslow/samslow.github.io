@@ -8,7 +8,8 @@ samslow:
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
   about:             |
-    powerdev
+    치과위생사, 비디오디자이너, 웹 디자이너, 롱보더
+    아수라 발발타
 
   # This photo will be used in the about section
   picture:
