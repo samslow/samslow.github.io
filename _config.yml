@@ -18,7 +18,9 @@ tagline:             Web Front-end Developer
 # A short description of the page, used in the sidebar and as fallback for the meta description tag.
 # Markdown enabled, but don't use more than one paragraph (enforced by `>`)
 description:         >
-  Who am i 
+  인생 경험의 스펙트럼만 넓은 개발자
+
+  블로그초보라 훈수 환영
 
 # This should be the same author as first entry in `_data/authors.yml`
 author:
