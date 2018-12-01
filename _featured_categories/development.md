@@ -6,5 +6,5 @@ menu: true
 submenu: true
 order: 2
 description: >
-  개발 전반적인 지식에 대해 작성하는 공간
+  비기너 개발자의 성장기가 기술 중심으로 쓰여지는 공간
 ---
