@@ -5,7 +5,10 @@ menu: true
 order: 10
 ---
 
-## 소개 
+# ABOUT 페이지는 현재 공사중 입니다 
+# 일해라 Samslow!
+
+<!-- ## 소개 
 - Github : [https://github.com/zzsza](https://github.com/zzsza)
 - Mail : snugyun01@gmail.com
 
@@ -62,4 +65,4 @@ order: 10
 ## 기타
 - 패스트캠퍼스 [데이터 엔지니어링 Extension SCHOOL](http://school.fastcampus.co.kr/data_des/) 1기 2학기(Scala, Spark Part) 조교
 - 패스트캠퍼스 [PyTorch로 시작하는 딥러닝 입문 CAMP](http://www.fastcampus.co.kr/data_camp_pytorch/) 3기 실습 조교
-- 제이펍 베타리더스 6기
+- 제이펍 베타리더스 6기 -->
