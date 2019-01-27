@@ -60,7 +60,7 @@ samslow:
     # stumbleupon:     <username>
     # paypal:          <username>
     email:           mailto:shsdf302@gmail.com
-    # rss:             https://samslow.github.io/feed.xml
+    rss:             https://samslow.github.io/feed.xml
 
 # Another author
 mdo:
