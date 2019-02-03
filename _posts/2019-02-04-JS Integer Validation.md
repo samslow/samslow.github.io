@@ -6,8 +6,6 @@ categories: development
 tags: web
 comments: true
 ---
-# JS Integer Validation
-
 회사에서 Javascript로 입력을 받는 알고리즘을 짠 경험중 정수검사( Integer Validation )을 한 경험을 나눕니다.
 
 ------
