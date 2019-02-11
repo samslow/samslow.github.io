@@ -46,7 +46,7 @@ DF에는 각 `Intent`에는 `Action and parameters` 가 있는데
 
 
 
-#### 시도 2. `typeof` 를 통해 `number`가 아닐때 ` if-else` 사용
+#### 시도 2. `typeof` 를 통해 `number`가 아닐때 `if-else` 사용
 
 사실 이번 시도가 이 글을 쓴 이유기도 하다.
 
