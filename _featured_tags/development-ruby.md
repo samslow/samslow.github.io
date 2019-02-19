@@ -1,7 +1,7 @@
 ---
 layout: tag-blog
-title: Ruby
-slug: ruby
+title: Rails
+slug: rails
 category: development
 menu: false
 order: 2
