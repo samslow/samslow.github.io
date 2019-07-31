@@ -280,7 +280,11 @@ type Character {
 그리고, 이 글을 쓰고나서 다른 개발자분이 [GraphQL을 AWS AppSync에서 쓰는 법](https://dev.classmethod.jp/cloud/aws/aws-appsync-re-introduction-2019-korean-ver/?fbclid=IwAR2KRZ778M1UuWHe30FR3oliZpHIlQTIkvBJf7XkkJ5cRBapIXA_rVRA_tg)을 공유 해 주었는데 
 `GraphQL 서버리스` 개념으로 사용 할 수 있는 방법 인듯 하여 한번 따라 해 보면 좋을 것 같다.
 
-오늘 내용을 작성한 키노트 파일도 [SlideShare](https://www.slideshare.net/HyeonseokSeo1/graphql-overview-and-practice-159293041)에 올려 놓았다.
+
+
+### 오늘 내용을 작성한 키노트 파일도 [SlideShare](https://www.slideshare.net/HyeonseokSeo1/graphql-overview-and-practice-159382659)에 깔끔하게 정리해서 (이쁘게) 올려 놓았다.
+
+* 이것때문에 팀장님이 꾸미는건 좋은데 사내세미나니 안꾸며도 하셨지만 꾸미는게 좋은걸 어떻게해... 다음엔 꾸안꾸st로 해보겠읍니다..
 
 ![image-20190731110634070](https://www.dropbox.com/s/p1cndsgbo4keiwg/image-20190731110634070.png?dl=1)
 
