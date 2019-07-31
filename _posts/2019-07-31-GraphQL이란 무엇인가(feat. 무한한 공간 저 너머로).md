@@ -276,6 +276,10 @@ type Character {
 어떤 기술스택에도 붙을 수 있다는 장점 외에도 수많은 장점들이 있기 때문에 역으로 장점이 단점이 되는 기술 스펙이 될 수도 있다. 하지만 프론트엔드를 사랑하는 개발자로서 GraphQL은 개발에 날개를 달아줄 기술임은 분명하다.
 
 기회가 된다면 본문에 소개한 `prisma`나 `Apollo`에 대해서도 포스팅 해보려고 한다. 
+
+그리고, 이 글을 쓰고나서 다른 개발자분이 [GraphQL을 AWS AppSync에서 쓰는 법](https://dev.classmethod.jp/cloud/aws/aws-appsync-re-introduction-2019-korean-ver/?fbclid=IwAR2KRZ778M1UuWHe30FR3oliZpHIlQTIkvBJf7XkkJ5cRBapIXA_rVRA_tg)을 공유 해 주었는데 
+`GraphQL 서버리스` 개념으로 사용 할 수 있는 방법 인듯 하여 한번 따라 해 보면 좋을 것 같다.
+
 오늘 내용을 작성한 키노트 파일도 [SlideShare](https://www.slideshare.net/HyeonseokSeo1/graphql-overview-and-practice-159293041)에 올려 놓았다.
 
 ![image-20190731110634070](https://www.dropbox.com/s/p1cndsgbo4keiwg/image-20190731110634070.png?dl=1)
