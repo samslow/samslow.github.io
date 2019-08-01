@@ -284,7 +284,9 @@ type Character {
 
 ### 오늘 내용을 작성한 키노트 파일도 [SlideShare](https://www.slideshare.net/HyeonseokSeo1/graphql-overview-and-practice-159382659)에 깔끔하게 정리해서 (이쁘게) 올려 놓았다.
 
-* 이것때문에 팀장님이 꾸미는건 좋은데 사내세미나니 안꾸며도 하셨지만 꾸미는게 좋은걸 어떻게해... 다음엔 꾸안꾸st로 해보겠읍니다..
+* 팀장님曰 꾸미는건 좋은데 사내 세미나니 안꾸미는게 낫지 않으냐고 하셨지만 꾸미는게 좋은걸 어떻게해... 다음엔 꾸안꾸st로 해보겠읍니다..
+
+
 
 ![image-20190731110634070](https://www.dropbox.com/s/p1cndsgbo4keiwg/image-20190731110634070.png?dl=1)
 
