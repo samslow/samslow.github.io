@@ -2,7 +2,7 @@
 layout: post
 title:  "Jekyll Blog, PCDATA invalid Char value Error 해결 방법"
 subtitle:   "Jekyll Blog, PCDATA invalid Char value Error 해결 방법"
-categories: etc
+categories: development
 tags: bugFix
 comments: true
 ---

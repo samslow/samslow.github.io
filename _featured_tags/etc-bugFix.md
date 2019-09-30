@@ -2,7 +2,7 @@
 layout: tag-blog
 title: BugFix
 slug: bugFix
-category: etc
+category: development
 menu: false
-order: 3
+order: -1
 ---
