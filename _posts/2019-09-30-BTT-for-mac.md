@@ -77,7 +77,7 @@ BTT는 현재 계속 개발되고있는 툴로써 UI가 계속 개편되고 있�
 
 
 6. 마지막으로, 아래 첨부되어 있는 bttPreset 파일을 다운받아 왼쪽 아래 `Manage Presets` 에서 `import`로  적용하면 대부분의 세팅이 완료된다.
-   * <a href="https://drive.google.com/open?id=1aiqX5M0XNByXBDmA4OnscENsVhRirfNw" target="_blank">Samslow-preset</a>
+   * <a href="http://bit.ly/2nmyLVZ" target="_blank">Samslow-Btt-preset</a>
 
 7. 이후에는 본인 입맛에 맞게 슥 샥 쇽 끼우면 나만의 맥북 터치바 완성!
 
