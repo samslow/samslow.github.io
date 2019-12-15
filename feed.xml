@@ -12,7 +12,7 @@ layout: null
     <lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
     <generator>Jekyll v{{ jekyll.version }}</generator>
     <image>
-      <url>https://samslow.me/logo.png</url>
+      <url>https://samslow.github.io/logo.png</url>
     </image>
     {% for post in site.posts limit:30 %}
       <item>
