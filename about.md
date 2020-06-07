@@ -24,35 +24,35 @@ order: 10
 
 ## Award
 
-- 2019. 12 공개 SW 개발자대회 컨트리뷰톤 장려상 수상 | react-native tutorial 제작
+`2019. 12` 공개 SW 개발자대회 컨트리뷰톤 장려상 수상 | react-native tutorial 제작
 
-- 2018. 12 서울대학교 Big Bio Medical Data Hackathon | Frontend Developer
+`2018. 12` 서울대학교 Big Bio Medical Data Hackathon | Frontend Developer
 
-- 2018. 08 China Rugao Alibaba IoT Hackathon | Frontend Developer
+`2018. 08` China Rugao Alibaba IoT Hackathon | Frontend Developer
 
-- 2018. 06 SW 중심대 Open Source Hackathon | Frontend Developer
+`2018. 06` SW 중심대 Open Source Hackathon | Frontend Developer
 
 ## Organizing
 
-- 2019. 05 뉴비들을 위한 해커톤 뉴비톤 Season 2 | 행사 기획 및 운영
+`2019. 05` 뉴비들을 위한 해커톤 뉴비톤 Season 2 | 행사 기획 및 운영
 
-- 2018. 05 뉴비들을 위한 해커톤 뉴비톤 Season 1 | 행사 운영 및 촬영
+`2018. 05` 뉴비들을 위한 해커톤 뉴비톤 Season 1 | 행사 운영 및 촬영
 
-- 2018. 11 비기너 투 주니어(Beginner to Junior) | 행사 기획 및 운영
+`2018. 11` 비기너 투 주니어(Beginner to Junior) | 행사 기획 및 운영
 
-- 2019. 01 - 루비 개발자 모임 : 서초 루비 | 행사 기획 및 운영
+`2019. 01` 루비 개발자 모임 : 서초 루비 | 행사 기획 및 운영
 
 ## Session
 
-- 소프트웨어에 물들다 하남지역 강의 "그래서 소프트웨어가 뭔데?"(2019.05)
+`2019.05` 소프트웨어에 물들다 하남지역 강의 "그래서 소프트웨어가 뭔데?"|
 
 ## Project
 
-|                                  |    기간    | 소개                                                                                                                                                                                                                                                                                                                      |
-| :------------------------------: | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|        캐치딜: 핫딜 알림         | 2019. 12 - | React Native Developer<br>push alarm backoffice 개발<br>제스처 인식 개발<br>Google Admob 개발<br>MAU 400(2020.05)<br>Android: [play.google.com/store/apps/details?id=com.catchdeal](play.google.com/store/apps/details?id=com.catchdeal)<br>iOS: [apps.apple.com/kr/app/id1493914556](apps.apple.com/kr/app/id1493914556) |
-| 전광판 플레이리스트 MusicKitchen |  2018. 09  | 카카오톡 챗봇 개발<br>서비스 페이지 비동기 통신 개발<br>Heroku 서버 배포<br>DeadLock 방지 상호배체 알고리즘 개발<br>Transaction 1400 upper<br>[서비스 링크](https://rocky-coast-76546.herokuapp.com/)와 [Github](https://github.com/samslow/likelion_musickitchen)                                                        |
+|                                  |    기간    | 소개                                                                                                                                                                                                                                                               |
+| :------------------------------: | :--------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+|        캐치딜: 핫딜 알림         | 2019. 12 - | React Native Developer<br>push alarm backoffice 개발<br>제스처 인식 개발<br>Google Admob 개발<br>MAU 400(2020.05)<br>[Android](play.google.com/store/apps/details?id=com.catchdeal) & [iOS](apps.apple.com/kr/app/id1493914556)                                    |
+| 전광판 플레이리스트 MusicKitchen |  2018. 09  | 카카오톡 챗봇 개발<br>서비스 페이지 비동기 통신 개발<br>Heroku 서버 배포<br>DeadLock 방지 상호배제 알고리즘 개발<br>Transaction 1400 upper<br>[서비스 링크](https://rocky-coast-76546.herokuapp.com/) & [Github](https://github.com/samslow/likelion_musickitchen) |
 
-## 기타
+<!-- ## 기타
 
-- 구직중입니다. 메일로 연락 주세요!
+- 구직중입니다. 메일로 연락 주세요! -->
