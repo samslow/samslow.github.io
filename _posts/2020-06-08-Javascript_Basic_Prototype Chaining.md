@@ -7,8 +7,6 @@ tags: web
 comments: true
 ---
 
-# Javascript 기초 - Prototype Chaining이 뭔가요
-
 - 이 글은 JS Prototype Chaining을 설명하기위해 Prototype Object, Prototype Link을 설명합니다.
 
 # 자바스크립트의 태생
@@ -57,9 +55,9 @@ const arr = [];
 
 이렇게 생성된 객체는 해당 객체의 Prototype Object 생성과 함께 연결되게 된다.
 
-![https://www.dropbox.com/s/ueiuxqgnyijcwjp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2007.41.22.png?raw=1](https://www.dropbox.com/s/ueiuxqgnyijcwjp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2007.41.22.png?raw=1)
+![https://www.dropbox.com/s/ueiuxqgnyijcwjp/스크린샷 2020-06-09 07.41.22.png?raw=1](https://www.dropbox.com/s/ueiuxqgnyijcwjp/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2007.41.22.png?raw=1)
 
-by [https://medium.com/@bluesh55](https://medium.com/@bluesh55/javascript-prototype-%EC%9D%B4%ED%95%B4%ED%95%98%EA%B8%B0-f8e67c286b67) 이하 동일
+by https://medium.com/@bluesh55 이하 동일
 
 쉽게 말해서 객체 생성을 부모를 만들어주고(Prototype Object) 그 관계를 연결(Prototype)해 주는 것이다.
 
@@ -83,17 +81,23 @@ console.log(kim.eyes); // 2
 
 # Prototype Link
 
-이 부분은 위에서 Prototype Object 의 부산물인 `__proto__` 의 설명이다.
+이 부분은 위에서 Prototype Object 의 부산물의 핵심이자 Prototype Chaining을 만들어주는 `__proto__` 의 설명이다.
 
-Prototype은 class와 비교하면 쉬운데, class에서 생성된 변수나 함수들을 `상속` 해서 쓸 수 있게 하는 것 처럼 JS의 Prototype도 상속을 `__proto__` 로 구현 한 것이다.
+Prototype은 class와 비교하면 쉬운데, **class에서 생성된 변수나 함수들을 `상속` 해서 쓸 수 있게 하는 것 처럼 JS의 Prototype도 상속을 `__proto__` 로 구현 한 것이다.**
 
-![https://www.dropbox.com/s/09s2vcwi10i7vmr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2008.21.29.png?raw=1](https://www.dropbox.com/s/09s2vcwi10i7vmr/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2008.21.29.png?raw=1)
+![](https://www.dropbox.com/s/eqtgc18dd1mlgo0/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2008.46.44.png?raw=1)
 
 Prototype 속성은 함수만 갖지만 `__proto__` 는 모든 객체가 갖고있다.
 
-따라서 인스턴스 수준에서 갖고있는 Prototype의 변수를 가져다 쓰는것이 가능해지고, 만약 여기에도 존재하지 않는다면 Object Prototype Object까지 거슬러 올라가서 확인하고 값이 없다면 `undefined`를 리턴하는 구조이다. 그래서 모든 객체는 Object의 손자이자 모든 객체는 Object가 아담과 하와인 것이다.
+따라서 인스턴스 수준에서는 인스턴스의 Prototype Object의 변수를 가져다 쓰는것이 가능해지고, 만약 여기에도 존재하지 않는다면 Object Prototype Object까지 거슬러 올라가서 확인하고 값이 없다면 `undefined`를 리턴하는 구조이다.
 
-이런 다양한 Prototype 특징을 이용하면 String()으로 생성된
+그래서 모든 객체는 Object의 손자이자 모든 객체는 Object가 최초의 인간 아담과 하와인 것이다.
+
+이런 다양한 Prototype 특징을 생각하면 String이나 Array로 생성된 인스턴스들의 prototype에 우리가 흔히 쓰는 toString, concat ··· 을 찾아 볼 수 있다.
+
+![](https://www.dropbox.com/s/wrhei21s1421tbl/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2008.44.40.png?raw=1)
+
+![](https://www.dropbox.com/s/0sv8w7kgww12x26/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-09%2008.44.13.png?raw=1)
 
 **이렇게 `__proto__` 를 통해 상위 프로토타입들과의 연결성이 Chain처럼 연결되어있어서 이를 `Prototype Chaining`이라고 한다.**
 
@@ -103,5 +107,5 @@ Prototype은 js이전에도 일상에서 종종 들어 볼 수 있는 말이니 
 
 # Reference
 
-- [sik2.log](https://velog.io/@sik2/JS-CoreJavaScript-%ED%94%84%EB%A1%9C%ED%86%A0%ED%83%80%EC%9E%85-%EC%B2%B4%EC%9D%B4%EB%8B%9DPrototype-Link-Prototype-Object)
-- [javascript 프로토타입 이해하기](
+- [sik2.log](https://velog.io/@sik2/JS-CoreJavaScript-프로토타입-체이닝Prototype-Link-Prototype-Object)
+- [javascript 프로토타입 이해하기](https://medium.com/@bluesh55/javascript-prototype-이해하기-f8e67c286b67)
