@@ -103,7 +103,14 @@ Prototype 속성은 함수만 갖지만 `__proto__` 는 모든 객체가 갖고�
 
 # 정리
 
-Prototype은 js이전에도 일상에서 종종 들어 볼 수 있는 말이니 쉽게 생각 하면 객체 생성시 그 객체에 대한 금형을 만드는 것을 prototype이라고 이해하면 쉬울 것 같다.
+- JS는 다중 패러다임, 동적 언어이기 때문에 보는 시각에 따라 다른 다형성을 갖는다.
+
+- JS는 OOP(Object Oriented Programing)의 class를 묘사하기 위해 prototype의 개념이 생겼다.
+- Prototype이 생성되면 Prototype Object 와 Prototype Link가 함께 따라간다.
+
+Prototype은 js이전에도 일상에서 종종 들어 볼 수 있는 말이니 쉽게 생각 하면 객체 생성시 그 객체에 대한 금형을 만드는 것을 prototype이라고 이해하고 이를 기반으로 인스턴스를 찍어내는 개념이라고 쉬울 것 같다.
+
+JS의 Prototype에 대한 공부를 다소 미뤄왔는데 대충만 알고있었지 Prototype 이 생성되며 Prototype Object나 Prototype Link가 생성되는 부분까지 디테일하게 알지는 못해서 개념을 정립하고 나니 JS와 조금 더 친해진 것 같다는 생각이 든다.(나만 그러니.. 우리 친해지자 자스)
 
 # Reference
 
