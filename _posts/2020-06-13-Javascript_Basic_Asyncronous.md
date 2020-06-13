@@ -5,7 +5,6 @@ subtitle: "Javascript 기초 - 비동기 통신"
 categories: development
 tags: web
 comments: true
-
 ---
 
 - Javascript에서 비동기 통신하는 방법의 초기 부터 어떤 식으로 발전했는지 살펴봅니다.
@@ -41,26 +40,24 @@ JS 이벤트 루프에 대해서는 별도의 글을 작성하겠지만, 간단�
 
 ![](https://www.dropbox.com/s/fq1rxbl9xvorcep/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-06-13%2012.43.59.png?dl=1)
 
-* JS Engine에는 프로세스가 실행될 Memory Heap과 그 순서를 담은 Call Stack이 있다.
-* Web API는 Browser에서 DOM을 조작하기 쉽도록 하는 여러 메소드를 제공한다.
-* Event **Loop(중요!)는** TaskQueue(CallbackQueue)와 Call Stack을 지속적으로 관찰하며 CallStack이 비었을 때 Task Queue를 비워간다.
+- JS Engine에는 프로세스가 실행될 Memory Heap과 그 순서를 담은 Call Stack이 있다.
+- Web API는 Browser에서 DOM을 조작하기 쉽도록 하는 여러 메소드를 제공한다.
+- Event **Loop(중요!)는** TaskQueue(CallbackQueue)와 Call Stack을 지속적으로 관찰하며 CallStack이 비었을 때 Task Queue를 비워간다.
 
 이러한 흐름을 JS EventLoop라고 한다.
-
-
 
 setTimeout()을 적절히 활용하면 아래와 같이 비동기 통신을 구현 할 수 있다.
 
 ```js
-function addTen(x){
-  return x + 10
+function addTen(x) {
+  return x + 10;
 }
 
-setTimeout(function() {
-  num = 5
-  result = addTen(num); 
-  console.log(result) // 15
-}, 1000)
+setTimeout(function () {
+  num = 5;
+  result = addTen(num);
+  console.log(result); // 15
+}, 1000);
 ```
 
 1초 후에 callback함수를 통해 addTen()이라는 함수를 실행하는 예제이다.
@@ -69,19 +66,16 @@ setTimeout(function() {
 
 단, 여기서 주의하여야 할 점은 TaskQueue 에 있는 callback들은 실행 될 때의 클로저로 변수를 파악하기 때문에 CallStack이 비워지고 나서 정해진 변수들을 사용하므로 이를 고려해 별도의 callback함수에 변수를 지정하는 방법을 사용할 수 있다.
 
-
-
-
-
 # XMLHttpRequest
 
 간단하게 XMLHttpRequest는 아래와 같은 구조로 동작한다.
 
 ```js
 function XMLHttp() {
-  let req = new XMLHttpRequest();			// XMLHttpRequest 객체
-  req.onreadystatechange = function() {	// 서버가 데이터를 반환했을때 발생하는 이벤트 핸들러
-    if(this.status == 200) {
+  let req = new XMLHttpRequest(); // XMLHttpRequest 객체
+  req.onreadystatechange = function () {
+    // 서버가 데이터를 반환했을때 발생하는 이벤트 핸들러
+    if (this.status == 200) {
       // 요청한 데이터를 문자열로 반환
       document.getElementById("text").innerHTML = req.responseText;
     }
@@ -97,11 +91,15 @@ function XMLHttp() {
 
 2번째 자리까지만 쓰면( default는 `false`), 해당 코드는 더이상 아래로 진행되지 않고 동기식으로 처리되어 요청이 완료될때까지 기다리게된다.
 
+만약 여기서 `false` 옵션을 사용하게 되면 코드 수준의 동기가 되기 때문에 브라우저가 멈추므로 유의하여 사용하여야 한다.
+
+예를들어, 무언가를 로딩하게 되면 브라우저의 모든 이벤트나 버튼들이 먹통이 되는 것이다.
+
 이 방법은 EventListener와 http 요청을 위한 작업등을 하나씩 사용하고 실제 요청을 send()로 보내는 것등을 직접 해 주어야 한다는 것인데, 직관적이라는 장점이 있지만 코드의 Line 수가 늘어나 가독성을 해치게 된다.
 
 위 객체를 이용하면 위에 사용한 JS setTimeout() 보다는 더 유려하게 코드를 작성 할 수 있다.
 
-요새는 개선된 방법이 더 많기 때문에 상대적으로 Row Level인 위 방법은 잘 사용되지 않고 Library를 활용한 Request가 선호된다.
+요새는 개선된 방법이 더 많기 때문에 상대적으로 Low Level인 위 방법은 잘 사용되지 않고 Library를 활용한 Request가 선호된다.
 
 계속해서 아래로 갈수록 더욱 개선된 방법이 소개 된다.
 
@@ -115,25 +113,23 @@ JQuery의 ajax를 사용하여 비동기 통신을 하는 기본적인 방법은
 
 ```js
 $.ajax({
-  url: 'https://samslow.github.io/example.txt',
-  type: 'GET',
+  url: "https://samslow.github.io/example.txt",
+  type: "GET",
   data: {
     // 보낼 데이터
   },
-  done: function(response) {
+  done: function (response) {
     // 성공 시 동작
   },
-  fail: function(error) {
+  fail: function (error) {
     // 실패 시 동작
-  }
+  },
 });
 ```
 
 위에 소개된 것과 상반되게 정말 쉽게 사용 할 수 있기 때문에 더 주의해야 하는 코드이다.
 
 비슷하게 Axios나 request.js같은 라이브러리를 사용하는 방식은 사실 위의 코드와 많이 비슷하다.
-
-
 
 # Promise
 
@@ -151,22 +147,22 @@ callback을 준비하는 객체라고 한 것 처럼 then(), catch(), finally() 
 
 이것을 조금 더 쉽게 이행하면 3가지 상태로 분류 할 수 있다.
 
-- 대기(*pending)*: 이행하거나 거부되지 않은 초기 상태.
-- 이행(*fulfilled)*: 연산이 성공적으로 완료됨.
-- 거부(*rejected)*: 연산이 실패함.
+- 대기(_pending)_: 이행하거나 거부되지 않은 초기 상태.
+- 이행(_fulfilled)_: 연산이 성공적으로 완료됨.
+- 거부(_rejected)_: 연산이 실패함.
 
 pending은 resolve되거나 reject 되는것을 기다리는 상태이고, fulfiled는 이것이 결정 된 상태, 거부는 catch()로 잡히는 에러나 reject을 처리한다.
 
 실제 동작하는 코드는 아래와 같다.
 
 ```js
-$.get('https://samslow.github.io/logo.png')
-	.then((result)=>{
-  	document.getElementById('Avatar').src = result.data
-	})
-	.catch((result)=>{
-	  console.error("Avatar load Fail")
-})
+$.get("https://samslow.github.io/logo.png")
+  .then((result) => {
+    document.getElementById("Avatar").src = result.data;
+  })
+  .catch((result) => {
+    console.error("Avatar load Fail");
+  });
 ```
 
 어떤가. 위에 소개된 Ajax의 장점은 취하고 단점이었던 코드의 성능은 덤으로 향상 될 것이다.
@@ -189,7 +185,7 @@ Async-Await는 이런 문제점들을 잡아주고, 형재는 비동기 통신�
 
 위의 소개된 것들과 같이 역시나 이것도 단점은 존재하는데, JQuery처럼 잘못 사용하면 병목현상을 유발 할 수 있다는 점이다.
 
-이것에 관해선 [더 잘 소개된 포스트]([https://medium.com/@sijk0331/javascript%EC%97%90%EC%84%9C-async-await%EC%9D%98-%EB%B3%91%EB%AA%A9-%EB%AC%B8%EC%A0%9C-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0-60d54795c4fa](https://medium.com/@sijk0331/javascript에서-async-await의-병목-문제-개선하기-60d54795c4fa))가 있으니 이것을 읽고 오길 바란다. 잘만 사용하면 획기적으로 비동기 통신 성능을 개선 할 수 있으니 가볍게 읽고 오면 좋다.
+이것에 관해선 [더 잘 소개된 포스트](<[https://medium.com/@sijk0331/javascript%EC%97%90%EC%84%9C-async-await%EC%9D%98-%EB%B3%91%EB%AA%A9-%EB%AC%B8%EC%A0%9C-%EA%B0%9C%EC%84%A0%ED%95%98%EA%B8%B0-60d54795c4fa](https://medium.com/@sijk0331/javascript에서-async-await의-병목-문제-개선하기-60d54795c4fa)>)가 있으니 이것을 읽고 오길 바란다. 잘만 사용하면 획기적으로 비동기 통신 성능을 개선 할 수 있으니 가볍게 읽고 오면 좋다.
 
 ![](https://ww.namu.la/s/622f344027a76589bb7f5e7458392cb354f3db63738a7d2b060d04adf2162c306b971c84ffb061e281f0fc35196e95b112043578e5cf56e263e8a655a1ad3a1fb998a10470c9d821775f470e695d05dc6ba1696f20748cbeb24f8b414a0fb934)
 
@@ -208,7 +204,7 @@ const uploadNewLogo = await function () => {
 	const logoImgPath = document.getElementById('uploaded').path;
   const logoImg = base64(require(logoImgPath));
   const req = $.post(url, {encoded: logoImg})
-  
+
   return req;
 }
 if(uploadNewLogo.status == 200){
@@ -220,23 +216,17 @@ if(uploadNewLogo.status == 200){
 
 여기서는 await를 사용함으로써 코드를 callbackHell로 빠지지 않게 한다는것만 알고 넘어가도 된다.
 
-
-
 # Summary
 
-* 비동기 통신은 JS EventLoop에 기초를 두고 JQuery, Promise 패턴이 동작한다.
-* 비동기 통신의 궁극체인 Async-Await 를 잘 사용하면 좋지만, 상황에 맞게 Promise 패턴을 적절히 사용하면 유용 하다.
-* 점점 비동기 통신은  개선되지만 그 개념은 변하지 않는다.
-
-
+- 비동기 통신은 JS EventLoop에 기초를 두고 JQuery, Promise 패턴이 동작한다.
+- 비동기 통신의 궁극체인 Async-Await 를 잘 사용하면 좋지만, 상황에 맞게 Promise 패턴을 적절히 사용하면 유용 하다.
+- 점점 비동기 통신은 개선되지만 그 개념은 변하지 않는다.
 
 이상으로 Javascript 기초 - 비동기 통신 글을 마칩니다.
 
 전체적인 코드는 완벽하지 않을 수 있으니 참고용으로만 봐주시고, 만약 부족하거나 잘못된 개념이 있다면 댓글로 알려주시면 수정 하겠습니다. 비난대신 비판으로 함께 해 주세요.
 
-
-
 # Reference
 
-* [D7D Lab](https://m.blog.naver.com/dndlab/221783285664)
-* [hudi.kr](https://hudi.kr/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81-javascript-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B8%B0%EB%B0%98-js%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/](https://hudi.kr/비동기적-javascript-싱글스레드-기반-js의-비동기-처리-방법/))
+- [D7D Lab](https://m.blog.naver.com/dndlab/221783285664)
+- [hudi.kr](<https://hudi.kr/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81-javascript-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B8%B0%EB%B0%98-js%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/](https://hudi.kr/비동기적-javascript-싱글스레드-기반-js의-비동기-처리-방법/)>)
