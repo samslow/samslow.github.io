@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "디자인 패턴 - MVC를 안다고 할 수 있는가"
-subtitle: "디자인 패턴 - MVC를 안다고 할 수 있는가"
+title: "디자인 패턴 - 당신은 MVC를 안다고 할 수 있는가"
+subtitle: "디자인 패턴 - 당신은 MVC를 안다고 할 수 있는가"
 categories: development
 tags: web
 comments: true
