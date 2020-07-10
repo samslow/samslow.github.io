@@ -2,39 +2,39 @@
 # Must be the same as `author` in `_config.yml`.
 # Change `qwtel` to your shortname (used in the front matter to set a page's author, e.g. `author: qwtel`).
 samslow:
-  name:              hyeonseok seo
-  email:             shsdf302@gmail.com
+  name: hyeonseok seo
+  email: shsdf302@gmail.com
 
   # Used at the bottom of each page and at the top of the `about` layout
   # Markdown enabled, can use multiple paragraphs (enabled by `|`)
-  about:             |+
+  about: |+
     비디오디자이너, 웹 개발자, 롱보더
 
     여러 우물을 파는 타입
 
   # This photo will be used in the about section
   picture:
-    src:             /assets/img/me.png
+    src: /assets/img/me.png
     # srcset is optional, but can be used to provide higher res versions for retina displays
     srcset:
-      1x:            /assets/img/me.png
-      2x:            /assets/img/me.png
+      1x: /assets/img/me.png
+      2x: /assets/img/me.png
 
   # Social media icons in sidebar
   # Comment/uncommet to show/hide
   # Icons appear in order, can be rearranged:
   social:
-    facebook:        samsloww
+    facebook: samsloww
     # twitter:         <username>
     # google:          <number>
     # vk:              <username>
-    youtube:         shsdf302
+    youtube: shsdf302
     # vimeo:           <username>
     # vine:            <username>
     # spotify:         <user>/<number>
     # soundcloud:      <username>
     # lastfm:          <username>
-    instagram:       slow_samuel
+    # instagram:       slow_samuel
     # flickr:          <string@string>
     # 500px:           <username>
     # dribbble:        <username>
@@ -48,7 +48,7 @@ samslow:
     # pinterest:       <username>
     # foursquare:      <number>
     # yelp:            <string>
-    github:          samslow
+    github: samslow
     # stackoverflow:   <number/username>
     # npm:             <username>
     # hackernews:      <username>
@@ -59,22 +59,22 @@ samslow:
     # delicious:       <username>
     # stumbleupon:     <username>
     # paypal:          <username>
-    email:           mailto:shsdf302@gmail.com
-    rss:             https://samslow.github.io/feed.xml
+    email: mailto:shsdf302@gmail.com
+    rss: https://samslow.github.io/feed.xml
 
 # Another author
 mdo:
-  name:              <firtname> <lastname>
-  email:             <mail@domain.tld>
-  about:             |
+  name: <firtname> <lastname>
+  email: <mail@domain.tld>
+  about: |
     Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
 
     Open `_data/authors.yml` to edit this text.
-  picture:           https://placehold.it/128x128
+  picture: https://placehold.it/128x128
   social:
-    github:          <username>
-    twitter:         <username>
-  image: 'data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==' # http://jsfiddle.net/LPxrT/
-  color: '#268bd2'
+    github: <username>
+    twitter: <username>
+  image: "data:image/gif;base64,R0lGODlhAQABAPAAACAgIP///yH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" # http://jsfiddle.net/LPxrT/
+  color: "#268bd2"
