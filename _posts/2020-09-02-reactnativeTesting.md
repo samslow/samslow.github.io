@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "React Native에서 TDD 하기"
-subtitle: "React Native에서 TDD 하기"
+title: "React Native TDD 길도 테스트 자동화부터"
+subtitle: "React Native TDD 길도 테스트 자동화부터"
 categories: development
 tags: reactnative
 comments: true
@@ -9,7 +9,7 @@ comments: true
 
 - 이 글에서는 [React Native Testing Library](https://callstack.github.io/react-native-testing-library/docs/getting-started/) 를 가지고 React Native에서 컴포넌트를 테스팅 하는 방법을 다룹니다.
 
-# React Native Testing
+# React Native TDD 길도 테스트 자동화부터
 
 TDD가 한번 나오더니 우후죽순으로 테스트를 하려는 조직이 늘어났다. 기존에도 이미 Testing은 꾸준히 사용되어 왔지만, '지금 잘 되는데 왜 굳이?'라며 잘 시도하지 않았고 코드가 늘어날 뿐이라며 시도하지 않던 분위기와는 사뭇 다르다.
 
