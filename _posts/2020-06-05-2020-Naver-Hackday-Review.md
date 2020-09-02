@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "2020 Naver Hackday Review 네이버 핵데이 회고"
-subtitle: "2020 Naver Hackday Review 네이버 핵데이 회고"
+title: "2020 Naver Hackday Review 네이버 핵데이 후기"
+subtitle: "2020 Naver Hackday Review 네이버 핵데이 후기"
 categories: diary
 tags: hackathon
 comments: true
