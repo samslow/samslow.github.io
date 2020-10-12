@@ -94,7 +94,7 @@ $ yarn ios # ios 시뮬레이터 빌드
 
 이는 jest의 장점 중 하나인 `Zero config` 이기도 하다.
 
-![내장된테스팅](https://www.dropbox.com/s/zyvgqjo2axd2zvc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.30.20.png?dl=1)
+![내장된테스팅](https://www.dropbox.com/s/zyvgqjo2axd2zvc/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.30.20.png?raw=1)
 
 우리는 기본 테스팅 라이브러리 대신 React Native Testing Library를 사용 할 것이고 autocomplete도 지원되길 바라기 때문에 아래 라이브러리들을 함께 설치한다.
 
@@ -184,7 +184,7 @@ const Greeting = ({ title, onPress }) => {
 export default Greeting;
 ```
 
-![레이아웃 끝](https://www.dropbox.com/s/nj2bdshg687m46a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.40.05.png?dl=1)
+![레이아웃 끝](https://www.dropbox.com/s/nj2bdshg687m46a/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.40.05.png?raw=1)
 
 모든 디자인과 레이아웃 작업이 끝났다.
 
@@ -235,7 +235,7 @@ jest 메서드인 `describe`는 각각의 `test` 들을 그룹핑 하도록 해�
 
 그럼 `__tests__`디렉토리에 `__snapshots__` 폴더가 생성되며 아래와 같은 내용을 볼 수 있다.
 
-![스냅샷](https://www.dropbox.com/s/x7bzbzbsdj5ur6v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.55.49.png?dl=1)
+![스냅샷](https://www.dropbox.com/s/x7bzbzbsdj5ur6v/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2018.55.49.png?raw=1)
 
 뭔가 많이 익숙하면서도 미묘하게 다른 코드를 볼 수 있는데 이게 바로 앞으로 테스팅의 기준일 될 스냅샷이다.
 
@@ -351,7 +351,7 @@ $ yarn test --coverage
 
 위 명령어를 실행하면 `coverage` 라는 폴더가 생성되며 `coverage report` 를 이용 할 수 있게 된다.
 
-![coverage](https://www.dropbox.com/s/ekt8scfohtlfgt3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.36.42.png?dl=1)
+![coverage](https://www.dropbox.com/s/ekt8scfohtlfgt3/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.36.42.png?raw=1)
 
 현재 우리의 테스트코드의 전체 커버리지는 90%이다.
 
@@ -359,9 +359,9 @@ report를 보니 `Profile.js` 의 15번째 줄의 내용이 테스트 되지 않
 
 방금 생성된 `coverage` 폴더에서 index.html을 열어 바로 확인 해 보자
 
-![커버리지 확인](https://www.dropbox.com/s/94wprtu27vzc6vk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.41.06.png?dl=1)
+![커버리지 확인](https://www.dropbox.com/s/94wprtu27vzc6vk/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.41.06.png?raw=1)
 
-![profile coverage](https://www.dropbox.com/s/33h5atmrt54vknh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.41.29.png?dl=1)
+![profile coverage](https://www.dropbox.com/s/33h5atmrt54vknh/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.41.29.png?raw=1)
 
 리포트에서 확인 해 보니 누가봐도 잘못했다는 의미로 빨간색으로 잘못한 부분을 짚어준다.
 
@@ -398,7 +398,7 @@ describe("[Profile] Test", () => {
 
 이제 다시 `yarn test --coverage` 를 실행하면?
 
-![coverage Complete!](https://www.dropbox.com/s/krs02qngnow3k9n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.43.59.png?dl=1)
+![coverage Complete!](https://www.dropbox.com/s/krs02qngnow3k9n/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-02%2019.43.59.png?raw=1)
 
 축하한다. 이제 이 코드는 모든 경우의 수를 커버하는 코드이기 때문에 여러분은 자신을 더 믿고 다른 기능들을 추가 할 수 있는 무적의 인피니트 건틀렛을 얻었다! 세상을 반으로 쪼개보기도 하고(?) 또 붙여보기도 하자(?)
 

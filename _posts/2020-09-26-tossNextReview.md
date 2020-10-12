@@ -230,7 +230,7 @@ React를 쓰던 Vue를 쓰던 그리고 라이브러리도 맘껏 쓰게 해 주
 
 [토스, 루머의 루머의 루머 영상 보러가기](https://youtu.be/HYxpv8a7I4I)
 
-![토스 썸네일](https://www.dropbox.com/s/orpt1eprijzy8ur/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-26%2020.29.41.png?dl=1)
+![토스 썸네일](https://www.dropbox.com/s/orpt1eprijzy8ur/%EC%8A%A4%ED%81%AC%EB%A6%B0%EC%83%B7%202020-09-26%2020.29.41.png?raw=1)
 
 <div align="center" style="color: gray">영상에서는 실무자 다섯명이 나와 이야기한다</div>
 
