@@ -1,19 +1,19 @@
 ---
 layout: post
-title:  "맥북 사용자를 위한 터치바 커스터마이징 (BTT 완벽 가이드)"
-subtitle:   "맥북 사용자를 위한 터치바 커스터마이징 (BTT 완벽 가이드)"
+title: "맥북 사용자를 위한 터치바 커스터마이징 (BTT 완벽 가이드)"
+subtitle: "맥북 사용자를 위한 터치바 커스터마이징 (BTT 완벽 가이드)"
 categories: etc
 tags: utility
 comments: true
 ---
 
-* 이 글은 맥북을 사용하는 분들의 터치바 활용성을 증대시키고 맥북을 더 잘 쓰고싶은 분들을 위하여 기고되었습니다.
+- 이 글은 맥북을 사용하는 분들의 터치바 활용성을 증대시키고 맥북을 더 잘 쓰고싶은 분들을 위하여 기고되었습니다.
 
-![touchbarEx](https://www.dropbox.com/s/m0dh5lyrwcgk8rl/touchbarEx.png?dl=1)
+![touchbarEx](https://www.dropbox.com/s/m0dh5lyrwcgk8rl/touchbarEx.png?raw=1)
 
-![touchbarEx2](https://www.dropbox.com/s/hhptr7fo3d0r0uj/touchbarEx2.png?dl=1)
+![touchbarEx2](https://www.dropbox.com/s/hhptr7fo3d0r0uj/touchbarEx2.png?raw=1)
 
-* 위 사진 두장은 제가 현재 사용하고 있는 터치바 디자인 입니다. 여러분도 아래 과정을 따라하면 똑같이 나오게 됩니다.
+- 위 사진 두장은 제가 현재 사용하고 있는 터치바 디자인 입니다. 여러분도 아래 과정을 따라하면 똑같이 나오게 됩니다.
 
 📢 두번째 사진의 날씨는 1번 터치바 그림에서 날씨 아이콘을 꾹 누르면 펼쳐집니다. 이 외에도 cmd와 opt를 누르면 나오는 창은 캡쳐가 안되서 올리진 못했지만 직접 올려보시고 봐보시길 바랍니다!
 
@@ -54,35 +54,32 @@ BTT는 현재 계속 개발되고있는 툴로써 UI가 계속 개편되고 있�
 
 1. 설치가 되면 Btt를 Spotlight로 실행 한 뒤 상단바에 있는 트랙패드 아이콘 클릭
 
-   ![btt1](https://www.dropbox.com/s/g17m1d1w0lo1ztp/btt1.png?dl=1)
+   ![btt1](https://www.dropbox.com/s/g17m1d1w0lo1ztp/btt1.png?raw=1)
 
 2. 이중 Old Configuration UI를 클릭하여 메뉴 설정 진입
 
-   *  기능들을 직접 설명 하는 것 보다 아래 화면에서 본인이 커스터마이징 해 보는것이 빠름.
+   - 기능들을 직접 설명 하는 것 보다 아래 화면에서 본인이 커스터마이징 해 보는것이 빠름.
 
 3. Advanced Settings > Moving & Resizing 에 진입하여 아래 Move windows 와 Resize windows를 어떤 단축키와 쓸 것인지 체크
 
-   * 저는 Move windows는 ctrl + cmd와 함께, Resize windows는 Ctrl + opt 로 사용 합니다.
-      ![btt2](https://www.dropbox.com/s/op2ur5blfq9mvow/btt2.png?dl=1)
+   - 저는 Move windows는 ctrl + cmd와 함께, Resize windows는 Ctrl + opt 로 사용 합니다.
+     ![btt2](https://www.dropbox.com/s/op2ur5blfq9mvow/btt2.png?raw=1)
 
 4. Advanced Settings > Window Snapping 에서 Window Snapping Enabled 에 체크하고 맥북 상단 바에서 Snap Areas가 활성화 되면 입맛에 맞게 커스텀
-   ![btt3](https://www.dropbox.com/s/9ftwvvmworrg3zl/btt3.png?dl=1)
+   ![btt3](https://www.dropbox.com/s/9ftwvvmworrg3zl/btt3.png?raw=1)
 
 5. 터치바의 완벽한 호환을 위해 `General Touch Bar Settings(첫번째 사진 오른쪽 위)` 을 클릭하여 `Default Settings`와 `Advanced`를 아래 사진처럼 세팅한다.
 
-   ![bttset1](https://www.dropbox.com/s/66l6i18rf3k0akh/bttset1.png?dl=1)
+   ![bttset1](https://www.dropbox.com/s/66l6i18rf3k0akh/bttset1.png?raw=1)
 
-   ![bttset1](https://www.dropbox.com/s/lsottv6oyfxvhbd/bttset2.png?dl=1)![bttset3](https://www.dropbox.com/s/1jadj5irt0giucd/bttset3.png?dl=1)
+   ![bttset1](https://www.dropbox.com/s/lsottv6oyfxvhbd/bttset2.png?raw=1)![bttset3](https://www.dropbox.com/s/1jadj5irt0giucd/bttset3.png?raw=1)
 
+6. 마지막으로, 아래 첨부되어 있는 bttPreset 파일을 다운받아 왼쪽 아래 `Manage Presets` 에서 `import`로 적용하면 대부분의 세팅이 완료된다.
 
-
-6. 마지막으로, 아래 첨부되어 있는 bttPreset 파일을 다운받아 왼쪽 아래 `Manage Presets` 에서 `import`로  적용하면 대부분의 세팅이 완료된다.
-   * <a href="http://bit.ly/2nmyLVZ" target="_blank">Samslow-Btt-preset</a>
+   - <a href="http://bit.ly/2nmyLVZ" target="_blank">Samslow-Btt-preset</a>
 
 7. 이후에는 본인 입맛에 맞게 슥 샥 쇽 끼우면 나만의 맥북 터치바 완성!
-
 
 이상으로 BTT 튜토리얼을 마칩니다.
 
 **맥북 터치바가 구리다고 안 쓰시는 분들이 많은데 이 글을 읽고 많은 분들이 본인 입맛에 맞게 커스터마이징해서 사용하셨으면 좋겠습니다.**
-
