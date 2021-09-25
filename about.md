@@ -15,11 +15,11 @@ order: 10
 
 ## Work Experience
 
-|                              |        기간         | 담당 업무                                                                                                                                                                                                                                                                                                           |
-| :--------------------------: | :-----------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|   토스 증권 TossSecurities   | 2020. 09 - current  | <li>Frontend Engineer</li><li>토스증권 사전신청 서비스 개발</li><li>Discovery Silo-토스증권에서 유저가 종목을 다양하게 탐색하는데 도움이 되는 기능을 개발, 주로 종목 상세에서 매출 비중, 재무제표, 배당 개발</li><li>Info Silo-유저가 종목의 정보를 빠르고 쉽게 접할수 있는 부분 개발, 검색과 지정가 알림 개발</li> |
-|           (주)엘핀           | 2019. 07 - 2020.03  | <li>React Native Client Developer</li><li>아임히어워크 v2 React Native 앱 개발 & 배포</li><li>OCR 기반 React Native 앱 개발</li><li>경찰청 & 정부 24 파이썬 웹 크롤링 EC2 서버 개발</li>                                                                                                                            |
-| LG CNS(디지털 플러스 시스템) | 2018. 11 - 2019. 05 | <li> Google Assistant 음성 챗봇 HabEAT 사내벤처 Backend Developer</li><li>Ruby on Rails 기반 Prototype 서비스 개발</li><li>AWS EC2 & Code Pipeline CI/ CD 구축</li><li>Java SpringBoot 기반으로 릴리즈 제품 리팩토링</li><li>Ruby on Rails devise gem Contribution</li><li>Apache Tomcat Contribution</li>          |
+|                              |        기간         | 담당 업무                                                                                                                                                                                                                                                                                                   |
+| :--------------------------: | :-----------------: | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|   토스 증권 TossSecurities   | 2020. 09 - current  | - Frontend Engineer<br/>- 토스증권 사전신청 서비스 개발<br/>- Discovery Silo-토스증권에서 유저가 종목을 다양하게 탐색하는데 도움이 되는 기능을 개발, 주로 종목 상세에서 매출 비중, 재무제표, 배당 개발<br/>- Info Silo-유저가 종목의 정보를 빠르고 쉽게 접할수 있는 부분 개발, 검색과 지정가 알림 개발<br/> |
+|           (주)엘핀           | 2019. 07 - 2020.03  | - React Native Client Developer<br/>- 아임히어워크 v2 React Native 앱 개발 & 배포<br/>- OCR 기반 React Native 앱 개발<br/>- 경찰청 & 정부 24 파이썬 웹 크롤링 EC2 서버 개발<br/>                                                                                                                            |
+| LG CNS(디지털 플러스 시스템) | 2018. 11 - 2019. 05 | - Google Assistant 음성 챗봇 HabEAT 사내벤처 Backend Developer<br/>- Ruby on Rails 기반 Prototype 서비스 개발<br/>- AWS EC2 & Code Pipeline CI/ CD 구축<br/>- Java SpringBoot 기반으로 릴리즈 제품 리팩토링<br/>- Ruby on Rails devise gem Contribution<br/>- Apache Tomcat Contribution                    |
 
 ## Award
 
