@@ -7,7 +7,7 @@ tags: web
 comments: true
 ---
 
-이 글은 [This Is My 10 Questions React Code Reviewing Routine](https://www.chakshunyu.com/blog/this-is-my-10-questions-react-code-reviewing-routine/) 를 작성자인 [Chak Shun Yu](https://twitter.com/keraito) 의 동의를 받고 작성되었습니다. 글 내용의 재미를 위해 적절한 의역이 있지만, 만약 오역이 있다면 댓글로 알려주세요.
+이 글은 [This Is My 10 Questions React Code Reviewing Routine](https://www.chakshunyu.com/blog/this-is-my-10-questions-react-code-reviewing-routine/) 를 작성자인 [Chak Shun Yu](https://twitter.com/keraito) 의 동의를 받고 작성되었습니다. 글의 재미를 위해 적절한 의역이 있지만, 만약 오역이 있다면 댓글로 알려주세요.
 
 > 원글은 Merge Request(MR)라고하지만, 이 글에서 핵심이 아니기 때문에 전통적인 표현인 PR을 사용합니다
 
