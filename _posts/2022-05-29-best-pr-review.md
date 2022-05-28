@@ -45,7 +45,7 @@ comments: true
 
 종종 리뷰어는 PR을 볼때 자기가 Linter나 다른 정적 분석 도구인 것처럼 검토합니다. 그들은 코드 구현에만 주의를 기울이고 모든 것이 제대로 구현되었는지 확인하죠. 하지만 문제는 정적 분석 도구가 동일한 작업을 더 빠르고 효율적이며 안정적으로 수행할 수 있다는 것입니다. 코드 디테일에 주의를 기울이는 것은 좋지만, 코드가 실제로 무엇을 하기위한 것인지 이해하는것이 포인트가 되어야 합니다.
 
-![magnifying](https://c.tenor.com/6LHoxNXuK20AAAAC/spy-skykids.gif)
+![magnifying-glass](https://c.tenor.com/6LHoxNXuK20AAAAC/spy-skykids.gif)
 
 <div align="center" style="color: gray; margin-bottom: 15px;">내가 다 린팅한다!</div>
 
