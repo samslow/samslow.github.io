@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "React Code Review를 잘하기 위한 10가지 방법"
-subtitle: "React Code Review를 잘하기 위한 10가지 방법"
+title: "React Code Review를 잘하기 위한 10가지 질문"
+subtitle: "React Code Review를 잘하기 위한 10가지 질문"
 categories: development
 tags: web
 comments: true
